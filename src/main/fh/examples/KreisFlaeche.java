@@ -1,4 +1,4 @@
-package fh.examples.examples;
+package fh.examples;
 
 import java.util.Scanner;
 

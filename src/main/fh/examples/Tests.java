@@ -1,4 +1,4 @@
-package fh.examples.examples;
+package fh.examples;
 
 public class Tests {
     public static void main(String[] args) {
