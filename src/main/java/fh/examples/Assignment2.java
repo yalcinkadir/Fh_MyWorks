@@ -73,7 +73,6 @@ public class Assignment2 {
 
     public static boolean isPrime(int n){
 
-
             if (n <= 1) {
                 return false;
             }
@@ -95,7 +94,6 @@ public class Assignment2 {
         }
         return max;
     }
-
 
     public static int getZahl() {
         Scanner scanner = new Scanner(System.in);
