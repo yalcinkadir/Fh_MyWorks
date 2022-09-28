@@ -1,5 +1,4 @@
 package fh.examples;
-
 import java.util.Scanner;
 
 public class Assignment2 {
@@ -76,6 +75,7 @@ public class Assignment2 {
             if (n <= 1) {
                 return false;
             }
+
             for (int i = 2; i < n; i++) {
                 if (n % i == 0) {
                     return false;
@@ -86,7 +86,7 @@ public class Assignment2 {
 
     public static int getMax(int[] numbers){
 
-        int max = 0;
+        int max = Integer.MIN_VALUE;
         for (int number : numbers) {
             if (number > max) {
                 max = number;
