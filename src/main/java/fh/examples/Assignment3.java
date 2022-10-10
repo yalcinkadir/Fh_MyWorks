@@ -28,7 +28,6 @@ public class Assignment3 {
         System.out.println("\nÜbung5: Write a program that prints out all 3-digit numbers " +
                 "where the sum of digits is greater than 25. Expect: 899 989 998 999");
         printSpecialNumbers();
-
     }
 
     // Übung1: Write a program that prints odd numbers from 1 to n (n is a int parameter)
@@ -106,7 +105,7 @@ public class Assignment3 {
 
     public static int getZahl() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ihre Zahl!");
+        System.out.println("Give me a Number!");
         return scanner.nextInt();
     }
 }
