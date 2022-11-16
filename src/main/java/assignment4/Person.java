@@ -1,7 +1,8 @@
-package Assignment4;
+package assignment4;
 
 public class Person {
 
+    public static boolean counter;
     private String vorname;
     private String nachname;
     private int groesse;
